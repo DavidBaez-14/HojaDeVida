@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenedor-principal {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-contacto,
+.seccion-perfil,
+.seccion-educacion,
+.seccion-certificaciones,
+.seccion-habilidades,
+.seccion-proyectos,
+.seccion-idiomas {
+    margin-bottom: 25px;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #ff6b35;
+    
+}
+
+.imagen {
+    width: 130px;
+    height: auto;
+    border-radius: 40%;
+    object-fit: cover;
+    border: 4px solid #d84315;
+}
+
+.datos-personales {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.nombre {
+    font-size: 2.5em;
+    color: #d84315;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    color: #d84315;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff6b35;
+}
+
+.info-contacto p {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.descripcion {
+    text-align: justify;
+    color: #555;
+}
+
+.educacion-ufps h4 {
+    color: #d84315;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.fecha {
+    color: #ff6b35;
+    font-style: italic;
+}
+
+.tabla-certificaciones {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-certificaciones thead {
+    background-color: #d84315;
+    color: white;
+}
+
+.tabla-certificaciones th,
+.tabla-certificaciones td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e1d5d5;
+}
+
+.categoria{
+    margin-bottom: 10px;
+}
+
+.categoria h4 {
+    color: #d84315;
+    margin-right: 10px;
+}
+
+.categoria p,
+.categoria li {
+    list-style: none;
+    color: #555;
+}
+
+.proyecto {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff8f5;
+    border-left: 4px solid #ff6b35;
+}
+
+.proyecto h4 {
+    color: #d84315;
+    margin-bottom: 5px;
+}
+
+.idiomas p {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.enlace {
+    color: #ff6b35;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    color: #d84315;
+    text-decoration: underline;
+}
+
