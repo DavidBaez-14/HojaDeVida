@@ -74,10 +74,25 @@ body {
     color: #555;
 }
 
+.educacion-ufps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.educacion-ufps div {
+    flex: 1;
+}
+
 .educacion-ufps h4 {
     color: #d84315;
     font-size: 1.2em;
     margin-bottom: 5px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
 }
 
 .fecha {
